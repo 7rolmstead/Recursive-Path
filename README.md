@@ -7,8 +7,8 @@ This function will accept two inputs, p which stands for the percentage of traps
   +  Inside the function declare a new variable path and assign it an empty array.
   +  Write a for-loop that will fill the array of size n with the booleans true or false.
     -  Inside the loop declare a random number r.
-    -  If r is less than or equal to p, return false.
-    -  Otherwise, return true.
+    -  If r is less than or equal to p, assign the path false.
+    -  Otherwise, assign the path true.
   +  Make sure that the last array entry is true.
   +  Finally return your path.
 
